@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, header {
+    width: 100%;
+    height: 100%;
+}
+/* Туризм. Первая часть */
+header {
+    color: white;
+    background-image: url(../img/section-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+} 
+h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.header-text {
+    margin-left: 150px;
+    align-content: center;
+    width: 40%;
+}
+.text-first {
+    font-size: 30px;
+    color: rgb(218, 218, 218);
+    text-transform: uppercase;
+}
+.text-second {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.text-third {
+    color: rgb(238, 236, 236);
+}
+/* Туризм. Вторая часть */
+main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main section {
+    width: 70%;
+    margin: auto;
+}
+.gallery-text {
+    display: flex;
+}
+h2 {
+    margin-right: 40px;
+}
+.gallery-img {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery-img img {
+    display: block;
+}
+.gallery-img div {
+    width: 50%;
+}
+.first-img {
+    width: 95%;
+}
+.second-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.third-img {
+    width: 100%;
+}
+/* Туризм. Третья часть */
+footer {
+    height: 300px;
+    background-image: url(../img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+footer p {
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* border - граница блока 
+   Npx - ширина рамки
+   solid - одна линия
+   color - цвет границы
+
+   border: Npx solid color;
+   ДЗ. разобраться с картинками. 
+   Адаптировать footer. Тег p шириной как верхние section
+   
+    
+*/

@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+    .header-text {
+        margin-left: 20px;
+        width: 80%;
+    }
+    .gallery-text {
+        display: block;
+    }
+    main section {
+        width: 90%;
+    }
+    h2 {
+        text-align: center;
+        margin-right: 0;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .gallery-text p {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .gallery-img {
+        display: block;
+    }
+    .gallery-img div {
+        width: 100%;
+    }
+    .gallery-img img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer p {
+        width: 90%;
+    }
+}

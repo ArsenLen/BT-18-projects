@@ -1,0 +1,61 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 99%; /* ширина блока */
+    background-color: #eee; /* цвет фона */
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 30px 10px 15px;
+}
+h1, p {
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+}
+p {
+    margin: 10px 0 10px;
+    font-size: 20px;
+}
+.photo {
+    background-color: white;
+    padding: 20px 0;
+}
+.photo img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.timeline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
+    padding: 35px 0;
+}
+ul {
+    font-size: 22px;
+}
+li {
+    margin-bottom: 20px;
+}
+.quote {
+    font-style: italic; /* курсив */
+    margin: 30px 0;
+}
+.more-info {
+    font-size: 24px;
+}
+a {
+    text-decoration: none; /* убирает подчеркивание у ссылки */
+}
+a:active {
+    font-size: 28px; /* увеличивает шрифт по нажатию */
+}
+a:visited {
+    color: grey; /* меняет цвет ссылки по которой кликнули */
+}

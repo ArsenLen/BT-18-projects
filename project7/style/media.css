@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    .nav-link {
+        font-size: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .bg-img {
+        display: block;
+        height: 50%;
+        background-image: url(../img/intro-bg.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .nav-sign-in {
+        width: 15%;
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .nav-register {
+        width: 15%;
+        margin-left: 0;
+    }
+    .intro-wrapper {
+        background-image: none;
+    }
+    .intro-text {
+       width: 100%;
+    }
+    .intro-buttons {
+        margin: auto;
+    }
+    .how-works-descr {
+        width: 80%;
+    }
+    .owl-carousel .owl-item img {
+        width: 30vw;
+    }
+}
+@media (max-width: 676px) {
+    .owl-carousel .owl-item img {
+        width: 50vw;
+    }
+}

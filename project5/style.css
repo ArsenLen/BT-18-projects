@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, section {
+    height: 100%;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+nav {
+    background-color: white;
+    height: 100px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    font-size: 28px;
+    text-decoration: none; /* убирает подчеркивание у ссылок */
+    font-family: 'Andada Pro', serif;
+    color: black;
+}
+#darkOrchid {
+    background-color: darkorchid;
+}
+#sandyBrown {
+    background-color: sandybrown;
+}
+#dodgerBlue {
+    background-color: dodgerblue;
+}
+#salmon {
+    background-color: salmon;
+}
+#img {
+    background-image: url(./img1.jpg);
+    background-size: cover;
+}

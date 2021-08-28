@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    background-color: darksalmon;
+}
+/*
+top, left, right, bottom
+вверх, левый, правый, низ
+
+// Как переместить наш шэйп на 200пх сверху и слева
+// Как переместить наш шэйп на 400пх сверху и слева
+
+position:
+relative
+absolute
+fixed
+sticky
+
+top: 200px;
+left: 200px;
+
+*/

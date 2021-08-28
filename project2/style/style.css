@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+}
+h1 {
+    text-align: center;
+}
+main {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 50px;
+}
+.item {
+    width: calc(50% - 20px);
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+.item-1 {
+    background-image: url(../img/1.jpg);
+}
+.item-2 {
+    background-image: url(../img/2.jpg);
+}
+/*  
+Псевдоклассы.
+ element:pseudoclass {
+     property: value;
+  }
+ 
+  Д/з: 
+  Стилизовать header
+  на ширине меньше 768 сделать font-size для h1 - 28; поменять цвет на любой другой
+
+ :hover - при наведении мыши
+*/

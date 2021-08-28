@@ -1,0 +1,29 @@
+@media (max-width: 992px) {
+    .item {
+        height: 150px;
+    }
+}
+@media (max-width: 768px) {
+    .item {
+        width: calc(100% - 20px);
+    }
+    h1 {
+        font-size: 28px;
+        color: coral;
+    }
+}
+
+/* 
+
+mobile-first - верстка изначально подстроеннная под моб.экраны
+@media (mediaValue) {
+    element {
+        property: value;
+    }
+}
+
+mediaValue 
+1) max-width - меньше, чем данное значение ширины меняем свойства
+2) min-width - больше, чем данное значение ширины меняем свойства 
+
+*/
